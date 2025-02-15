@@ -27,6 +27,7 @@ namespace StocklyAPI.Data.Configuration
                 .HasDefaultValue(false);
 
             builder.Property(c => c.IsActive)
+                .IsRequired()
                 .HasDefaultValue(true);
 
             // 🔹 Restrição: Data de nascimento não pode ser futura
