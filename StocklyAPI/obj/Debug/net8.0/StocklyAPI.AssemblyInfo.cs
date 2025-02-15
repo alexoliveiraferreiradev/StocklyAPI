@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("2aaf9b7c-4ada-4d38-87e8-6b632c0fd75b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocklyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1660aa5be7364967ec7c03c19998ea16ca40e77e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+451e4c86fe1cdcd03029eb0c981b93c88982ff79")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocklyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocklyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
