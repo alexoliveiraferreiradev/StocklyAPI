@@ -29,9 +29,14 @@ namespace StocklyAPI.Data.Repository
             x.Id.Equals(id)).FirstOrDefaultAsync() ?? new Product();
         }
 
-        public Task Update(Product pProduct)
+        public async Task Update(Product pProduct)
         {
-            throw new NotImplementedException();
+            var product = await Get(pProduct.Id);
+            if (product != null)
+            {
+                _context.Entry(product).CurrentValues.SetValues(product);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }
