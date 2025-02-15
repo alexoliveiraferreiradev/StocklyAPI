@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var connString = builder.Configuration["ConnectionStrings:StocklyConnection"];
+var connString = builder.Configuration.GetConnectionString("StocklyConnection");
 
 builder.Services.AddDbContext<StocklyDbContext>(
     options =>
