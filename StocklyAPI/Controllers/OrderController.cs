@@ -1,6 +1,8 @@
-﻿namespace StocklyAPI.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace StocklyAPI.Controllers
 {
-    public class OrderController
+    public class OrderController : ControllerBase
     {
     }
 }

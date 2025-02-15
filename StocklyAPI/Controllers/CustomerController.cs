@@ -1,6 +1,8 @@
-﻿namespace StocklyAPI.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace StocklyAPI.Controllers
 {
-    public class CustomerController
+    public class CustomerController : ControllerBase
     {
     }
 }
