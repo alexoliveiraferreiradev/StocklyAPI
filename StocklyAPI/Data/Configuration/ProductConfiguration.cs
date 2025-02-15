@@ -39,6 +39,9 @@ namespace StocklyAPI.Data.Configuration
                 .HasColumnType("decimal")
                 .HasPrecision(18, 4);
 
+            // 🔹 Evita valores negativos na coluna Quantity no banco de dados
+            builder.HasCheckConstraint("CK_Product_Quantity_NonNegative", "Quantity >= 0");
+
         }
     }
 }

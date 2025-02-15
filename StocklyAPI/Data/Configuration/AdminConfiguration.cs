@@ -25,6 +25,9 @@ namespace StocklyAPI.Data.Configuration
                 .HasDefaultValue(true);
 
 
+            // 🔹 Restrição: Data de registro não pode ser futura
+            builder.HasCheckConstraint("CK_Admin_RegistrationDate_Valid", "RegistrationDate <= GETDATE()");
+
         }
     }
 }

@@ -28,6 +28,9 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(c => c.IsActive)
                 .HasDefaultValue(true);
+
+            // 🔹 Restrição: Data de nascimento não pode ser futura
+            builder.HasCheckConstraint("CK_Customer_DateOfBirth_Valid", "DateOfBirth <= GETDATE()");
         }
     }
 }
