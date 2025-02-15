@@ -33,7 +33,7 @@ namespace StocklyAPI.Data.Configuration
                 .IsRequired();
 
             builder.Property(x => x.Category)
-                .HasColumnType("nvarchar(20)");
+                .HasMaxLength(20);
 
             builder.Property(x => x.Weight)
                 .HasColumnType("decimal")
