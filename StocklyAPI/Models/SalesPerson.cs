@@ -11,5 +11,7 @@ namespace StocklyAPI.Models
         public DateTime HireDate { get; set; }
         public bool IsActive { get; set; }
         public string ContactNumber { get; set; }
+
+        public bool HasElevatedPrivileges { get; set; }
     }
 }
