@@ -1,4 +1,5 @@
-﻿using StocklyAPI.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using StocklyAPI.Interfaces;
 using StocklyAPI.Models;
 
 namespace StocklyAPI.Data.Repository
@@ -10,24 +11,31 @@ namespace StocklyAPI.Data.Repository
         {
             _context = context;
         }
-        public Task Add(Customer pUser)
+        public async Task Add(Customer pUser)
         {
-            throw new NotImplementedException();
+            _context.Customers.Add(pUser);
+            await _context.SaveChangesAsync();  
         }
 
-        public Task Delete(Customer pUser)
+        public async Task Delete(Customer pUser)
         {
-            throw new NotImplementedException();
+            _context.Customers.Remove(pUser);
+            await _context.SaveChangesAsync();  
         }
 
-        public Task<Customer> Get(int id)
+        public async Task<Customer> Get(int id)
         {
-            throw new NotImplementedException();
+          return await _context.Customers.Where(
+              x=>x.Id.Equals(id)).FirstOrDefaultAsync() ?? new Customer();
         }
 
-        public Task Update(Customer pUser)
+        public async Task Update(Customer pUser)
         {
-            throw new NotImplementedException();
+            var customer = await Get(pUser.Id);
+            if (customer != null) { 
+                _context.Entry(customer).CurrentValues.SetValues(pUser); 
+                await _context.SaveChangesAsync();   
+            }
         }
     }
 }
