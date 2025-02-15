@@ -1,6 +1,6 @@
 ﻿namespace StocklyAPI.Models
 {
-    public class Estoque
+    public class Order
     {
     }
 }

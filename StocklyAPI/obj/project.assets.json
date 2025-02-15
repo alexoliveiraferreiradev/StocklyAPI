@@ -4272,19 +4272,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\conap\\.nuget\\packages\\": {}
+    "C:\\Users\\alx15\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\conap\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
+      "projectUniqueName": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
       "projectName": "StocklyAPI",
-      "projectPath": "C:\\Users\\conap\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
-      "packagesPath": "C:\\Users\\conap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\conap\\source\\repos\\StocklyAPI\\StocklyAPI\\obj\\",
+      "projectPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
+      "packagesPath": "C:\\Users\\alx15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\conap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alx15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4309,7 +4314,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4361,7 +4367,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

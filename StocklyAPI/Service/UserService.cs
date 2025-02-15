@@ -1,6 +1,6 @@
 ﻿namespace StocklyAPI.Service
 {
-    public class UsuarioService
+    public class UserService
     {
     }
 }

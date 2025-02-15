@@ -2,7 +2,7 @@
 
 namespace StocklyAPI.Models
 {
-    public class Usuario : IdentityUser
+    public class SalesPerson : IdentityUser
     {
     }
 }
