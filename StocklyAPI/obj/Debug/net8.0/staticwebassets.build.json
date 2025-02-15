@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sg0IELYBWiC7Qt6YXNAR78B96qTlPRRuAoZ6c3u3qr8=",
+  "Source": "StocklyAPI",
+  "BasePath": "_content/StocklyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "isBKPWuUEsQ=",
+  "dgSpecHash": "SvTjPwQuar0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
+  "projectFilePath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alx15\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\alx15\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

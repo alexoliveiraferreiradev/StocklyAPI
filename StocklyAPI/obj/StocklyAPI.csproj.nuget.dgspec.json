@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj": {}
+    "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj": {
+    "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
         "projectName": "StocklyAPI",
-        "projectPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
+        "projectPath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
         "packagesPath": "C:\\Users\\alx15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\obj\\",
+        "outputPath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

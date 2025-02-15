@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "809rZ7grZm0=",
+  "dgSpecHash": "M647L/O1Dtc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
+  "projectFilePath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI\\StocklyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alx15\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\alx15\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

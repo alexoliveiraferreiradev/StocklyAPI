@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StocklyAPI.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe7e34936b24f104bb2b42d936e11139bac180d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e7727e00bc7750e28d9c5376de97349708a3e1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("StocklyAPI.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StocklyAPI.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

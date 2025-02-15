@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj": {}
+    "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj": {
+    "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
         "projectName": "StocklyAPI.Tests",
-        "projectPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
+        "projectPath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\StocklyAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\alx15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alx15\\Source\\Repos\\StocklyAPI\\StocklyAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\alx15\\source\\repos\\StocklyAPI\\StocklyAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
