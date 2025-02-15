@@ -6,9 +6,8 @@ namespace StocklyAPI.Data
 {
     public class StocklyDbContext : DbContext
     {
-        public StocklyDbContext()
+        public StocklyDbContext(DbContextOptions<StocklyDbContext> options) : base(options)
         {
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
