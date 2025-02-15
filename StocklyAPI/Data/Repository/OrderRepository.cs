@@ -23,10 +23,10 @@ namespace StocklyAPI.Data.Repository
             await _context.SaveChangesAsync();  
         }
 
-        public async Task<Order> Get(int id)
+        public async Task<Order?> Get(int id)
         {
            return await _context.Orders.Where(
-               x=>x.Id.Equals(id)).FirstOrDefaultAsync() ?? new Order();
+               x=>x.Id.Equals(id)).FirstOrDefaultAsync() ?? null;
         }
 
         public async Task<IEnumerable<Order>> GetAll()

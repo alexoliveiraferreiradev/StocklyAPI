@@ -23,10 +23,10 @@ namespace StocklyAPI.Data.Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<Product> Get(int id)
+        public async Task<Product?> Get(int id)
         {
             return await _context.Products.Where(x =>
-            x.Id.Equals(id)).FirstOrDefaultAsync() ?? new Product();
+            x.Id.Equals(id)).FirstOrDefaultAsync() ?? null;
         }
 
         public async Task Update(Product pProduct)
