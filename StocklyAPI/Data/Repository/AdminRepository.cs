@@ -23,7 +23,7 @@ namespace StocklyAPI.Data.Repository
             await _context.SaveChangesAsync();  
         }
 
-        public async Task<Admin?> Get(int id)
+        public async Task<Admin?> Get(string id)
         {
            return await _context.Admins.Where(
                x=>x.Id.Equals(id)).FirstOrDefaultAsync() ?? null;   
