@@ -1,6 +1,6 @@
 ﻿namespace StocklyAPI.Controllers
 {
-    public class ProdutoController
+    public class ProductController
     {
     }
 }
