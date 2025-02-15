@@ -1,4 +1,5 @@
-﻿using StocklyAPI.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using StocklyAPI.Interfaces;
 using StocklyAPI.Models;
 
 namespace StocklyAPI.Data.Repository
@@ -8,21 +9,24 @@ namespace StocklyAPI.Data.Repository
         private readonly StocklyDbContext _context;
         public ProductRepository(StocklyDbContext context)
         {
-            _context = context; 
+            _context = context;
         }
-        public Task Add(Product pProduct)
+        public async Task Add(Product pProduct)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task Delete(Product pProduct)
-        {
-            throw new NotImplementedException();
+            _context.Products.Add(pProduct);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<Product> Get(int id)
+        public async Task Delete(Product pProduct)
         {
-            throw new NotImplementedException();
+            _context.Products.Remove(pProduct);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<Product> Get(int id)
+        {
+            return await _context.Products.Where(x =>
+            x.Id.Equals(id)).FirstOrDefaultAsync() ?? new Product();
         }
 
         public Task Update(Product pProduct)
