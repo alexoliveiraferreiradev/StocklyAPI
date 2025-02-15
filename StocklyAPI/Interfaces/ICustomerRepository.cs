@@ -7,6 +7,6 @@ namespace StocklyAPI.Interfaces
         Task Add(T pUser);
         Task Update(T pUser);
         Task Delete(T pUser);
-        Task<T?> Get(int id);
+        Task<T?> Get(string id);
     }
 }
