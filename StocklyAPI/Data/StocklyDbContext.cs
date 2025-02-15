@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StocklyAPI.Data.Configuration;
 using StocklyAPI.Models;
 
 namespace StocklyAPI.Data
@@ -12,7 +13,11 @@ namespace StocklyAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration(new AdminConfiguration());
+            modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());  
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new SalesPersonConfiguration());
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
