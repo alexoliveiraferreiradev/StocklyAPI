@@ -2,7 +2,7 @@
 
 namespace StocklyAPI.Interfaces
 {
-    public interface IUserRepository<T> where T : User
+    public interface ICustomerRepository<T> where T : Customer
     {
         Task Add(T pUser);
         Task Update(T pUser);
