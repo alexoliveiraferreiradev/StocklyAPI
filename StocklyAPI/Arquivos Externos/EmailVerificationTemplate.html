@@ -1,1 +1,21 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmação de E-mail</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
+    <h2>Confirme seu e-mail para ativar sua conta</h2>
+    <p>Olá, {{UserName}}!</p>
+    <p>Obrigado por se cadastrar no <strong>Stockly</strong>. Para ativar sua conta, clique no link abaixo:</p>
+    <p>
+        <a href="{{VerificationLink}}" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
+            Confirmar E-mail
+        </a>
+    </p>
+    <p>Ou copie e cole este link no seu navegador:</p>
+    <p>{{VerificationLink}}</p>
+    <p>Se você não se cadastrou, ignore este e-mail.</p>
+    <p>Atenciosamente, <br><strong>Equipe Stockly</strong></p>
+</body>
+</html>
