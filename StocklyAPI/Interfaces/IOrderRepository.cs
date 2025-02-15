@@ -7,7 +7,7 @@ namespace StocklyAPI.Interfaces
         Task Add(T pOrder);
         Task Update(T pOrder);
         Task Delete(T pOrder);
-        Task<T> Get(int id);    
+        Task<T?> Get(int id);    
         Task<IEnumerable<T>> GetAll(); 
     }
 }
