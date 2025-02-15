@@ -36,6 +36,7 @@ namespace StocklyAPI.Data.Configuration
                 .HasMaxLength(20);
 
             builder.Property(x => x.Weight)
+                .IsRequired()
                 .HasColumnType("decimal")
                 .HasPrecision(18, 4);
 
