@@ -32,7 +32,8 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(o => o.TotalAmount)
                 .IsRequired()
-                .HasColumnType("decimal(18,2)");
+                .HasColumnType("decimal")
+                .HasPrecision(18,2);
 
             builder.Property(o => o.PaymentMethod)
                 .IsRequired()
