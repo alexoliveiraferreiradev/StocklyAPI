@@ -12,9 +12,6 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(x => x.Id)
                 .HasColumnName("Customer_Id");
-
-            builder.Property(x=>x.Email)
-                .
         }
     }
 }
