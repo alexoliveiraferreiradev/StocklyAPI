@@ -12,6 +12,22 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(x => x.Id)
                 .HasColumnName("Customer_Id");
+
+            builder.Property(c => c.FullName)
+            .IsRequired()
+            .HasMaxLength(150);
+
+            builder.Property(c => c.ShippingAddress)
+           .HasMaxLength(250);
+
+            builder.Property(c => c.DateOfBirth)
+                .IsRequired();
+
+            builder.Property(c => c.IsEmailVerified)
+                .HasDefaultValue(false);
+
+            builder.Property(c => c.IsActive)
+                .HasDefaultValue(true);
         }
     }
 }
