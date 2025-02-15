@@ -15,10 +15,10 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(x => x.Name)
                 .IsRequired()
-                .HasColumnType("nvarchar(100)");
+                .HasMaxLength(100);
 
             builder.Property(x => x.Description)
-                .HasColumnType("nvarchar(500)");
+                .HasMaxLength(500);
 
             builder.Property(x => x.Quantity)
                 .HasDefaultValue(0)
