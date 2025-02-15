@@ -15,7 +15,7 @@ namespace StocklyAPI.Data.Configuration
 
             builder.Property(x => x.Name)
                 .IsRequired()
-                .HasColumnType("nvarchar(100)");
+                .HasMaxLength(100);
 
             builder.Property(x=>x.RegistrationDate)
                 .IsRequired();
